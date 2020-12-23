@@ -1,0 +1,13 @@
+Package: rpackage
+Version: 1.0-0
+Encoding: UTF-8
+Date: 2020-12-21
+Depends: R (>= 3.0.0)
+Imports: maps, readr, dplyr, tidyr, graphics
+Title: R Package
+Author: Gabriel Schulman <gpsbass@gmail.com>
+Maintainer: Gabriel Schulman <gpsbass@gmail.com>
+Description: A function for plotting vehicle accident data.
+License: GPL (>=2)
+URL: https://github.com/gabe-schulman/r_package
+RoxygenNote: 7.1.1
