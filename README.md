@@ -1,3 +1,3 @@
 <!-- badges: start -->
-  [![R-CMD-check](https://github.com/gabe-schulman/r_package/workflows/R-CMD-check/badge.svg)](https://github.com/gabe-schulman/r_package/actions)
+  [![Build Status](https://travis-ci.com/gabe-schulman/r_package.svg?branch=main)](https://travis-ci.com/gabe-schulman/r_package)
   <!-- badges: end -->
