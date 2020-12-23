@@ -18,7 +18,3 @@ US National Highway Traffic Safety Administration's Fatality Analysis Reporting 
 into R as a dataframe object if the file containing the data exists in the working directory.
 This function requires the "readr" package to be installed.d
 }
-\examples{
-fars_read("fars_data")
-
-}

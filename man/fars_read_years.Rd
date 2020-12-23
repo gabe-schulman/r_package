@@ -16,7 +16,3 @@ Returns a dataframe.
 Function that returns dataframes of FARS data for years specified by the user. Returns an error if
 there is no FARS data for a specified year.
 }
-\examples{
-fars_read_years(c(2012,2013,2014))
-
-}

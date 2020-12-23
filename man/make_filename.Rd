@@ -16,7 +16,3 @@ to read in FARS data for available years.
 \description{
 Simple function that creates the name of the file containing FARS data for the year specified.
 }
-\examples{
-make_filename(2012)
-
-}

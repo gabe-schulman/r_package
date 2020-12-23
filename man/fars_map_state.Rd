@@ -19,7 +19,3 @@ This function takes the state and year as arguments and produces a map of accide
 for the year specified. This function will throw an error if the state number is not valid, or if there are
 no accidents in state for the year specified. This function requires the "maps" package to be installed.
 }
-\examples{
-fars_map_state(5, 1998)
-
-}

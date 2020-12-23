@@ -9,9 +9,6 @@
 #' 
 #' @return This function returns the data as a dataframe object.
 #' 
-#' @examples 
-#' fars_read("fars_data")
-#' 
 #' @export
 fars_read <- function(filename) {
   if(!file.exists(filename))
@@ -31,9 +28,6 @@ fars_read <- function(filename) {
 #' @return This function returns a character string that can be inputted into the 'fars_read' function
 #' to read in FARS data for available years.
 #' 
-#' @examples
-#' make_filename(2012)
-#' 
 #' @export
 make_filename <- function(year) {
   year <- as.integer(year)
@@ -48,9 +42,6 @@ make_filename <- function(year) {
 #' @param years A vector containing the years of FARS data the user wishes to analyze.
 #' 
 #' @return Returns a dataframe.
-#' 
-#' @examples
-#' fars_read_years(c(2012,2013,2014))
 #' 
 #' @export
 fars_read_years <- function(years) {
@@ -78,9 +69,6 @@ fars_read_years <- function(years) {
 #' @return Returns a key-value table displaying the number of accidents each month
 #' of the years in the vector that was passed as an argument to the function.
 #' 
-#' @examples 
-#' fars_summarize_years(c(2012,2013,2014))
-#' 
 #' @export
 fars_summarize_years <- function(years) {
   dat_list <- fars_read_years(years)
@@ -100,9 +88,6 @@ fars_summarize_years <- function(years) {
 #' @param year The year of accident data the user wants to display.
 #' 
 #' @return Returns a map that will be displayed.
-#' 
-#' @examples
-#' fars_map_state(5, 1998)
 #' 
 #' @export
 fars_map_state <- function(state.num, year) {

@@ -18,7 +18,3 @@ A function that takes a vector of years as input and returns a table that displa
 the number of accidents by year and month. This function requires the "dplyr" package
 to be installed.
 }
-\examples{
-fars_summarize_years(c(2012,2013,2014))
-
-}
