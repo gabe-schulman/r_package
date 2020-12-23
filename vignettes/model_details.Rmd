@@ -1,0 +1,21 @@
+---
+title: "model_details"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{model_details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rpackage)
+```
+
+This package is intended for loading, analyzing and visualizing FARS accident data. It contains four functions with which to do so.
