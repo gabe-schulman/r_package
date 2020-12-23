@@ -3,7 +3,7 @@ Version: 1.0-0
 Encoding: UTF-8
 Date: 2020-12-21
 Depends: R (>= 3.0.0)
-Imports: maps, readr, dplyr, tidyr, graphics
+Imports: maps, readr, dplyr, tidyr, graphics, testthat
 Title: R Package
 Author: Gabriel Schulman <gpsbass@gmail.com>
 Maintainer: Gabriel Schulman <gpsbass@gmail.com>
